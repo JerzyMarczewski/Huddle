@@ -1,6 +1,7 @@
 import {useEffect} from 'react';
-import GlobalStyle from "./GlobalStyles";
+import GlobalStyle, {Container} from "./GlobalStyles";
 import WebFont from 'webfontloader';
+import Navbar from './resources/components/Navbar/Navbar';
 
 function App() {
 
@@ -15,6 +16,9 @@ function App() {
   return (
     <>
       <GlobalStyle />
+      <Container>
+        <Navbar/>
+      </Container>
       
     </>
   );
