@@ -59,10 +59,13 @@ export const Button = styled.button`
     padding: .15rem .6rem;
     font-size: .5rem;
     cursor: pointer;
+    box-shadow: 0 0 2px var(--pink);
+    transition: background-color ease-in .15s;
 
     &:hover {
         border-color: var(--light-pink);
         color: var(--light-pink);
+        box-shadow: 0 0 2px var(--light-pink);
     }
 
     @media only screen and (min-width: 375px) {
@@ -76,12 +79,10 @@ export const Button = styled.button`
     }
 
     @media only screen and (min-width: 765px) {
-        padding: .3rem 1rem;
         font-size: .6rem;
     }
 
     @media only screen and (min-width: 1024px) {
-        padding: .3rem 1rem;
         font-size: .7rem;
     }
 
