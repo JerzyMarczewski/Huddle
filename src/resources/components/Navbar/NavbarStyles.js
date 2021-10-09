@@ -59,7 +59,7 @@ export const Button = styled.button`
     padding: .15rem .6rem;
     font-size: .5rem;
     cursor: pointer;
-    box-shadow: 0 0 2px var(--pink);
+    box-shadow: 0 0 1px var(--pink);
     transition: background-color ease-in .15s;
 
     &:hover {
