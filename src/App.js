@@ -3,6 +3,7 @@ import GlobalStyle, {Container} from "./GlobalStyles";
 import WebFont from 'webfontloader';
 import Navbar from './resources/components/Navbar/Navbar';
 import BuildTheCommunity from './resources/components/BuildTheCommunity/BuildTheCommunity';
+import GrowTogether from './resources/components/GrowTogether/GrowTogether';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Container>
         <Navbar/>
         <BuildTheCommunity />
+        <GrowTogether />
       </Container>
       
     </>
